@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+a{
+    background-color: aqua;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover{
+    color: black;
+}

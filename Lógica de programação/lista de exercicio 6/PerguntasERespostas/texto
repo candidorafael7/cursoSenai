@@ -1,0 +1,20 @@
+/* 
+1) O que são funções? Como declaramos? como chamamos?
+
+Funções são blocos de códigos reutilizáveis, que realizam uma tarefa específica, ou calculam o valor, em alguma parte do seu código. Para declarar a função, temos 2 métodos declaração e a expressão, onde a pricipal diferença, é que na expressão, associamos a função com uma variável. Para chamar as funções, só colocamos o noma da função e abrimos e fechamos ().
+
+
+2) O que são parâmetros? Onde são utilizados? Para que servem?
+
+Parâmetros são variáveis declaradas na lista de argumentos de uma função e servem como valores de entrada para a função. São utilizadas para que a função receba valores específicos necessários para executar a tarefa. Servem também para que a função seja flexível, e possa lidar com diferentes valores de entrada.
+
+
+3) O que são argumentos? Onde são utilizados? Para que servem?
+
+valores reais, que vc insere para preencher os parâmetros da função
+
+4) O que é o retorno de uma função? Como ele é declarado?
+
+O retorno de uma função é o valor que a função produz quando é executada. Uma função pode retornar qualquer tipo de dado em JavaScript
+
+*/
