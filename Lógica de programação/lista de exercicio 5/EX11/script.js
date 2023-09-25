@@ -1,0 +1,3 @@
+function verificarPrimo(numero) {
+    
+}
