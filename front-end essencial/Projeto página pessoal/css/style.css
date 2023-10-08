@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #23263A;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMe{
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.aboutMe-menu{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    background-color: #232632;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+.aboutMe-menu div{
+    font-size: 20px;
+}
+
+.aboutMe-menu span{
+    color: rgb(255, 74, 87);
+}
+
+.aboutMe-menu ul,li{
+    list-style: none;
+    display: inline-flex;
+}
+
+
+.aboutMe-menu a{
+    text-decoration: none;
+    margin: 20px;
+    background-color: rgb(255, 74, 87);
+    padding: 15px;
+    border-radius: 30px;
+    width: 60px;
+    text-align: center;
+}
+
+
+
+.aboutMe-navegation{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 200px;
+}
+
+
+.aboutMe-navegation h1{
+    font-size: 50px;
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.aboutMe-navegation p{
+    width: 300px;
+    color: rgb(52,47,67);
+    margin-bottom: 30px ;
+}
+
+
+.aboutMe-navegation .botao{
+    background-color: rgb(255, 74, 87);
+    padding: 30px;
+    width: 220px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+.skills-set{
+    display: flex;
+    height: 680px;
+    justify-content: center;
+}
+
+.skills-set--nav{
+    height: 95%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-set--nav---space{
+    flex: 1;
+}
+
+.skills-set--nav p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.skills-set--nav h1{
+    font-size: 70px;
+    color: rgb(255, 74, 87);
+}
+
+.skills-bar{
+    margin-top: 10px;
+    background-color: rgb(255, 74, 87);
+    width: 175px;
+    height: 5px;
+}
+
+.skills-set--nav .habilities{
+    flex: 4;
+}
+
+
+.habilities{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.habilities .box-area{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.habilities .box{
+    height: 230px;
+    width: 230px;
+    margin-right: 40px;
+    margin-top: 10px;
+    background-color: rgb(44, 45, 66);
+    text-align: center;
+}
+
+.box h1{
+    margin-top: 30px ;
+    font-size: 20px;
+}
+
+.box p{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 14px;
+    text-align: left;
+}
+
+
+
+.t{
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.contact{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-area{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-form{
+    height: 95%;
+    display: table-column;
+    margin-left: 60px;
+    width: 90%;
+}
+
+.contact-form h1{
+    font-size: 40px; 
+    color: rgb(255, 74, 87); 
+    margin-bottom: 30px; 
+}
+
+input{
+    border: 0;
+    background-color: rgb(44, 45, 66);
+    padding: 30px;
+    width: 40%;
+    border-radius: 30px;
+    display: block;
+    margin-top: 20px;
+}
+
+
+button{
+    margin-top: 30px;
+    color: black;
+    background-color: rgb(255, 74, 87);
+    width: 15%;
+    height: 70px;
+    border-radius: 30px;
+}
+
+button a{
+    text-decoration: none;
+}
